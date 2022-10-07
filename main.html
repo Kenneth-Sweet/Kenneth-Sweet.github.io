@@ -1,0 +1,29 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<H1>CLICK THE BUTTON OR KIRBY WILL GET SENT TO YUGOSLAVIA</H1>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+<button>CLICK ME PLEASE</button>
+<img style="max-width:400px; height:auto;" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/579c0ee2-24dd-4d54-a259-f1185c0e62e8/d46qlwk-2821b4e6-5af5-404d-906b-029ab070a55b.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzU3OWMwZWUyLTI0ZGQtNGQ1NC1hMjU5LWYxMTg1YzBlNjJlOFwvZDQ2cWx3ay0yODIxYjRlNi01YWY1LTQwNGQtOTA2Yi0wMjlhYjA3MGE1NWIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BGF41QydPg1JweHKviaB2T9pzWKuSPtarb-x3EWNggA"></img>
+<style>
+    button {position: absolute;
+top: 10px;
+left: 10px;
+size: 30px;
+background-color: violet;
+color:#fff
+}
+</style>
+<script>$(function() {
+    $("button").on({
+      mouseover: function() {
+        $(this).css({
+          left: (Math.random() * 200) + "px",
+          top: (Math.random() * 200) + "px",
+        });
+      }
+    });
+  });</script>
